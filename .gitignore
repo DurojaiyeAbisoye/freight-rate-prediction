@@ -1,0 +1,14 @@
+# environments / caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# training logs
+catboost_info/
+
+# data (provided by Spotter, and large)
+data/
+
+# saved models (the notebook regenerates them)
+*.joblib
